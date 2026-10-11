@@ -6,8 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'OpenTurbopumps',
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/Open-Turbopumps' },
+				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/open-turbopumps'}
+			],
 			sidebar: [
 				{
 					label: 'Guides',
@@ -21,6 +24,11 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
 			],
+			logo: {
+				light: "./src/assets/light_logo.svg",
+				dark: "./src/assets/dark_logo.svg",
+				replacesTitle: true
+			}
 		}),
 	],
 });
