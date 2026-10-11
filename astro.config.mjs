@@ -28,7 +28,8 @@ export default defineConfig({
 				light: "./src/assets/light_logo.svg",
 				dark: "./src/assets/dark_logo.svg",
 				replacesTitle: true
-			}
+			},
+			favicon: './turbine.svg'
 		}),
 	],
 });
