@@ -31,6 +31,5 @@ export default defineConfig({
 			}
 		}),
 	],
-	site: 'https://Open-Turbopumps.github.io',
-	base: '/OpenTurbopumpsWiki'
+	site: 'https://openturbopumps.org',
 });
